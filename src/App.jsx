@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 import './App.css'
 import Draw from './components/Draw'
