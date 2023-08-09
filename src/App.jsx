@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h3>Drawer by Mario Canales </h3>
+      <h1>Drawer by Mario Canales </h1>
       <Draw />
     </>
   )
