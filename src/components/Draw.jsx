@@ -7,7 +7,7 @@ const Draw = () => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
 
-    canvas.addEventListener("mouseclick", (e) => {
+    canvas.addEventListener("click", (e) => {
       ctx.lineWidth = 1.5;
       ctx.lineCap = "round";
       ctx.strokeStyle = "#037A68";
