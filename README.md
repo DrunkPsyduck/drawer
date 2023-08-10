@@ -5,6 +5,12 @@
 El objetivo es crear una app que eprmita dibujar con diferentes colores en un canvas
 Esta basado en un componente que se creo para mi portfolio y que luego decidí no incluir en las siguientes versiones
 
+### Nota: 
+***La versión actual no es compatible con dispositivos móviles, solo con navegadores web de escritorio***
+
+## Uso
+Para poder dibujar es necesario hacer click y mantenerlo pulsado. Mientras este en esa posición, se podrá dibujar.
+
 ## Tema
 Dependiendo del tema del sistema operativo (probado en Windows 10) se mostrará un fondo claro u oscuro
 
