@@ -5,7 +5,7 @@
 El objetivo es crear una app que eprmita dibujar con diferentes colores en un canvas
 Esta basado en un componente que se creo para mi portfolio y que luego decidí no incluir en las siguientes versiones
 
-### Nota: 
+#### Nota: 
 ***La versión actual no es compatible con dispositivos móviles***
 
 ## Uso
