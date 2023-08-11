@@ -36,7 +36,7 @@ function App() {
       <button
         onClick={() =>
           toast(
-            "Haz click para empezar a dibujar. Solo dibujaras mientras mantengas pulsado el botón"
+            "Aplicación no soportada para dispositivos móviles. Haz click para empezar a dibujar. Solo dibujaras mientras mantengas pulsado el botón"
           )
         }
         style={{ position: "relative", zIndex: "2" }}
