@@ -15,9 +15,8 @@ Para poder dibujar es necesario hacer click y mantenerlo pulsado. Mientras este 
 Dependiendo del tema del sistema operativo (probado en Windows 10) se mostrará un fondo claro u oscuro
 
 ### V1
-![image](https://github.com/DrunkPsyduck/drawer/assets/40211718/06b47637-3ff9-4fbb-b950-f0673c3e71e1)
 ![image](https://github.com/DrunkPsyduck/drawer/assets/40211718/8f1c5d9d-9f3c-4d60-aabc-1adbafbda5b0)
-
+![image](https://github.com/DrunkPsyduck/drawer/assets/40211718/06b47637-3ff9-4fbb-b950-f0673c3e71e1)
 
 ### V2
 ![image](https://github.com/DrunkPsyduck/drawer/assets/40211718/02f85193-0efc-43ef-b65c-c8a8226251aa)
