@@ -1,6 +1,11 @@
 import { useRef, useEffect } from "react";
-const Draw = () => {
-const canvasRef = useRef(null);
+
+const Draw = ({ strokeColor }) => {
+  if(strokeColor === ''){
+    strokeColor='#037A68'
+  }
+
+  const canvasRef = useRef(null);
   const isDrawingRef = useRef(false);
   const lastPositionRef = useRef(null);
 
@@ -21,7 +26,7 @@ const canvasRef = useRef(null);
 
       ctx.lineWidth = 1.5;
       ctx.lineCap = "round";
-      ctx.strokeStyle = "#037A68";
+      ctx.strokeStyle = strokeColor; // Aquí establecemos el color del trazo
       ctx.globalAlpha = 1.5;
 
       const { x, y } = lastPositionRef.current;
@@ -50,7 +55,8 @@ const canvasRef = useRef(null);
       canvas.removeEventListener("mousemove", handleMouseMove);
       canvas.removeEventListener("mouseup", handleMouseUp);
     };
-  }, []);
+  }, [strokeColor]); // Agregamos strokeColor como dependencia para reaccionar a cambios
+
 
   return (
     <div>
@@ -60,7 +66,6 @@ const canvasRef = useRef(null);
         width={window.innerWidth}
         height={window.innerHeight}
       />
-     
     </div>
   );
 };
