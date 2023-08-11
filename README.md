@@ -1,9 +1,23 @@
-# drawer
- Proyecto Drawer
+# Drawer
+ ¡Dibuja sin limites con Drawer!. En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad
 
 ## Objetivo
 El objetivo es crear una app que eprmita dibujar con diferentes colores en un canvas
 Esta basado en un componente que se creo para mi portfolio y que luego decidí no incluir en las siguientes versiones
+Dicho componente usa un canvas para dibujar trazo. En esta aplicaci'on, se ha modificado para que solo dibuje cu'ando se haga click. También se ha modificado para poder cambiar el color del trazo al color que se quiera.
+
+
+## Tecnologías usadas
+Para este proyecto se ha usado Vite junto a React usando .JSX. 
+Junto a eso, se ha usado CSS para dar estilos 
+
+### Dependencias
+
+- [React](https://github.com/facebook/react): ^18.2.0
+- react-dom: ^18.2.0
+- [react-color](https://github.com/casesandberg/react-color): ^2.19.3
+- [sonner](https://github.com/emilkowalski/sonner): ^0.6.2
+
 
 #### Nota: 
 ***La versión actual no es compatible con dispositivos móviles***
