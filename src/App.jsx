@@ -26,10 +26,9 @@ function App() {
           href="https://mariocanales.es"
           target="_blank"
           rel="noreferrer"
-          style={{ position: "relative", zIndex: "0" }}
+          style={{ position: "relative", zIndex: "3" }}
         >
-          {" "}
-          Mario Canales{" "}
+          Mario Canales
         </a>
       </h3>
       <Toaster position="top-center" />
