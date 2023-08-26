@@ -1,5 +1,6 @@
 # Drawer
- ¡Dibuja sin limites con Drawer!. En esta aplicación puedes usar el navegador como un lienzo para dar rienda suelta a tu creatividad
+ ¡Dibuja sin limites con Drawer! 
+ Usa tu navegador weeb como un lienzo en blanco y da rienda suelta a tu creatividad!
 
  [![Deploys by netlify](https://www.netlify.com/img/global/badges/netlify-color-bg.svg)](https://www.netlify.com)
 
